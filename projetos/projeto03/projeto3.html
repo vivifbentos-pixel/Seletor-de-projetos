@@ -1,0 +1,718 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MedSync</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        #btnpg1:hover {
+            background-color: rgb(hsl(21, 56, 21)) !important;
+            color: white !important;
+            opacity: 1 !important;
+        }
+
+        #apg1 {
+            color: rgb(241, 238, 237) !important;
+        }
+
+        .nav-link {
+            color: #f5d8bd !important;
+        }
+
+        .nav-link:hover {
+            color: #e58a4b !important;
+        }
+
+        .accordion-button:not(.collapsed) {
+            background-color: #d96b32;
+            color: white;
+        }
+
+        #pagina3 .form-control {
+            background-color: transparent;
+            border: 2px solid #e7c9ae;
+        }
+
+        #pagina3 .btn-primary {
+            background-color: #d96b32;
+            border: none;
+        }
+
+        .card-body {
+            background-color:rgba(23, 86, 129);
+        }
+
+        .card {
+            height: 450px !important;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div style="min-height: 100vh;" class="d-flex flex-column">
+
+        <header id="inicio" style="min-height: 10vh;">
+            <nav class="navbar bg-body-tertiary" style="height: 10vh;background-color: rgb(1, 59, 90)!important;">
+
+                <div class="container-fluid">
+
+                    <a id="apg1" class="navbar-brand" href="#" style="color: #325e70;">
+                        <img src="https://i.pinimg.com/736x/87/09/ec/8709ecd746bb27010268b2974647818a.jpg" alt="Logo"
+                            width="30" height="24" class="d-inline-block align-text-top">
+
+                        MedSync
+                    </a>
+
+                    <ul class=" nav justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#inicio">Pagina inicial</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pagina2">Em destaque</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pagina3">Entre em contato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pagina4">Nossa história</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </nav>
+        </header>
+
+        <main>
+
+            <!--PAGINA 1-->
+            <section style="
+                min-height: 90vh;
+                background-size: 300px 220px;
+                background-repeat: repeat;
+                background-position: center;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;">
+
+                <div class="container-fluid" style="min-height: 90vh; background-color: rgba(144, 188, 185);">
+                    <div class="row" style="min-height: 90vh;">
+                        <div class="col-6 d-flex flex-column justify-content-center align-items-center">
+
+                            <h3 style="
+                    color: rgb(243, 240, 226);
+                    
+                    text-align: center;
+                    padding: 8px;">
+                                MedSync
+                            </h3>
+
+                            <h4 style="
+                    color: rgb(243, 240, 226);
+                    
+                    text-align: center;
+                    padding: 8px;">
+                                "Saúde em perfeita sincronia"
+                            </h4>
+
+                            <hr>
+
+                            <a href="#pagina2">
+                                <button id="btnpg1" style="opacity: 0.9;background-color: rgba(22, 81, 132);color: #ffffff;"
+                                    class="btn btn-warning">
+                                    Confira os nossos remédios mais vendidos
+                                </button>
+                            </a>
+                            <br>
+                            <a href="#pagina4">
+                                <button id="btnpg1" style="opacity: 0.9;background-color: rgba(22, 81, 132);color: #ffffff;"
+                                    class="btn btn-warning">
+                                    Conheça nossa história
+                                </button>
+                            </a>
+                        </div>
+                        <div class="col-6" style="background-image:
+                linear-gradient(rgba(20,10,5,.4),rgba(20,10,5,.4)),
+                url('https://i.pinimg.com/1200x/b9/52/eb/b952ebfb95e975c81390c935db6d0e55.jpg');
+                background-size:cover;
+                background-repeat: no-repeat;
+                background-position:center ;">
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </section>
+
+            <!--PAGINA 2-->
+            <section id="pagina2" class="d-flex align-items-center justify-content-center"
+                style="min-height: 100vh; background-color: #38878a;">
+                <div class="container-fluid d-flex flex-row justify-content-center align-items-center gap-4 flex-wrap"
+                    style="padding-top: 30px;padding-bottom: 30px;">
+
+
+                    <div class="card shadow-sm" style="width: 18rem;">
+                        <img src="https://i.pinimg.com/1200x/0e/60/66/0e606630889ae17a37b1326edde1fd66.jpg"
+                            class="card-img-top" alt="Folklore">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Buscofem 400mg<p></p>
+                            </h5>
+                            <button type="button" class="btn btn-success mt-2" style="background-color: #184e55;"
+                                data-bs-toggle="modal" data-bs-target="#modalbuscofem">Saiba mais</button>
+                        </div>
+                    </div>
+
+
+                    <div class="card shadow-sm" style="width: 18rem;">
+                        <img src="https://i.pinimg.com/736x/0c/b1/bd/0cb1bdb74f5d30662b3ad06480a257b3.jpg"
+                            class="card-img-top" alt="Black Pumas">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Dipirona monoidratada 500mg</h5>
+                            <button type="button" class="btn btn-success mt-2" style="background-color: #184e55;"
+                                data-bs-toggle="modal" data-bs-target="#modaldipirona">Saiba mais</button>
+                        </div>
+                    </div>
+
+                    <div class="card shadow-sm" style="width: 18rem;">
+                        <img src="https://i.pinimg.com/736x/0c/1d/c5/0c1dc5911f6aa351ae3e75d4bff20614.jpg"
+                            class="card-img-top" alt="Black Pumas">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Neosoro</h5>
+                            <button type="button" class="btn btn-success mt-2" style="background-color: #184e55;"
+                                data-bs-toggle="modal" data-bs-target="#modalneosoro">Saiba mais</button>
+                        </div>
+                    </div>
+
+                    <div class="card shadow-sm " style="width: 18rem;height: 18rem;">
+                        <img src="https://i.pinimg.com/1200x/52/60/45/5260452066ae42208bf3444fa0db3b9e.jpg"
+                            class="card-img-top" alt="Black Pumas">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Pomada Bepantol</h5>
+                            <button type="button" class="btn btn-success mt-2" style="background-color: #184e55;"
+                                data-bs-toggle="modal" data-bs-target="#modalbepantol">Saiba mais</button>
+                        </div>
+                    </div>
+
+                    <div class="card shadow-sm" style="width: 18rem;height: 450px;">
+                        <img src="https://i.pinimg.com/736x/6e/d4/d9/6ed4d9ca5cd9e81de2a229b7cf81a3d7.jpg"
+                            class="card-img-top" alt="Black Pumas">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Nimesulida 100mg<h5> </h5>
+                            </h5>
+                            <button type="button" class="btn btn-success mt-2" style="background-color: #184e55;"
+                                data-bs-toggle="modal" data-bs-target="#modalnimesulida">Saiba mais</button>
+                        </div>
+                    </div>
+
+                    <div class="card shadow-sm" style="width: 18rem;height: 450px;">
+                        <img src="https://i.pinimg.com/736x/9a/c2/c9/9ac2c9dd161aee5838353d3b97b6ec5e.jpg"
+                            class="card-img-top" alt="Black Pumas">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Band-Aid Transparentes</h5>
+                            <button type="button" class="btn btn-success mt-2" style="background-color: #184e55;"
+                                data-bs-toggle="modal" data-bs-target="#modalbandaid">Saiba mais</button>
+                        </div>
+                    </div>
+
+                    <div class="card shadow-sm" style="width: 18rem;">
+                        <img src="https://i.pinimg.com/736x/5f/41/6a/5f416ad24c4ac26fcb60872e045dfd00.jpg"
+                            class="card-img-top" alt="Black Pumas">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Paracetamol Baby 100mg</h5>
+                            <button type="button" class="btn btn-success mt-2" style="background-color: #184e55;"
+                                data-bs-toggle="modal" data-bs-target="#modalparacetamol">Saiba mais</button>
+                        </div>
+                    </div>
+
+                    <div class="card shadow-sm" style="width: 18rem;">
+                        <img src="https://i.pinimg.com/736x/7f/fd/8a/7ffd8a3186f003ea01bf2b727ab62840.jpg"
+                            class="card-img-top" alt="Black Pumas">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">LacDay 10.000 FCC ALU</h5>
+                            <button type="button" class="btn btn-success mt-2" style="background-color: #184e55;"
+                                data-bs-toggle="modal" data-bs-target="#modallacday">Saiba mais</button>
+                        </div>
+                    </div>
+
+                    <div class="card shadow-sm" style="width: 18rem;">
+                        <img src="https://i.pinimg.com/1200x/86/a2/3d/86a23d75017ef9fb0e956a53115291c0.jpg"
+                            class="card-img-top" alt="Black Pumas">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Termometro Incoterm</h5>
+                            <button type="button" class="btn btn-success mt-2" style="background-color: #184e55"
+                                data-bs-toggle="modal" data-bs-target="#modaltermometro">Saiba mais</button>
+                        </div>
+                    </div>
+
+                    <div class="card shadow-sm" style="width: 18rem;">
+                        <img src="https://i.pinimg.com/736x/e3/6f/2e/e36f2edd1b87a407025342b5ebd0aca6.jpg"
+                            class="card-img-top" alt="Black Pumas">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Bombinha Inalatória</h5>
+                            <button type="button" class="btn btn-success mt-2" style="background-color: #184e55;"
+                                data-bs-toggle="modal" data-bs-target="#modalbombinha">Saiba mais</button>
+                        </div>
+                    </div>
+
+                    <div class="card shadow-sm" style="width: 18rem;">
+                        <img src="https://i.pinimg.com/736x/82/8f/4d/828f4d04ab193d9fcaf575801358159a.jpg"
+                            class="card-img-top" alt="Black Pumas">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Salompas</h5>
+                            <button type="button" class="btn btn-success mt-2" style="background-color: #184e55;"
+                                data-bs-toggle="modal" data-bs-target="#modalsalonpas">Saiba mais</button>
+                        </div>
+                    </div>
+
+                    <div class="card shadow-sm" style="width: 18rem;">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVCSQNui6EdjNodf4FQXFXEj_CexZ9VnYLBt3sd6Fc8bYP9rRtpFS98z7i&s=10"
+                            class="card-img-top" alt="Black Pumas">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Dramin B6 10mg</h5>
+                            <button type="button" class="btn btn-success mt-2" style="background-color: #184e55;"
+                                data-bs-toggle="modal" data-bs-target="#modaldramin">Saiba mais</button>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+
+            <div class="modal fade" id="modalbuscofem">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">37,99</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
+                            O Buscofem é um remédio à base de ibuprofeno, usado principalmente para aliviar dores,
+                            cólicas menstruais, inflamações e febre.
+                            <br>
+                            <hr>
+                            <button type="button" style="background-color: #97cdea; border-radius: 2%;">Compre
+                                agora</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="modal fade" id="modaldipirona">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">9,99</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
+                            A dipirona 500 mg é um medicamento usado para aliviar dores e diminuir a febre. É um
+                            analgésico e antitérmico bastante comum no Brasil. Deve ser usada de acordo com a bula ou
+                            orientação de um profissional de saúde.
+                            <br>
+                            <hr>
+                            <button type="button" style="background-color: #97cdea; border-radius: 2%;">Compre
+                                agora</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="modal fade" id="modalneosoro">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">7,99</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
+                            O Neosoro é usado para ajudar a descongestionar e limpar o nariz. A tarja depende da versão:
+                            o Neosoro de solução nasal com cloreto de sódio é isento de tarja.
+                            <br>
+                            <hr>
+                            <button type="button" style="background-color: #97cdea; border-radius: 2%;">Compre
+                                agora</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="modal fade" id="modalbepantol">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">49,59</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
+                            A pomada Bepantol é usada principalmente para hidratar e proteger a pele, ajudando em
+                            irritações e ressecamento. A versão Bepantol Baby é isenta de tarja.
+                            <br>
+                            <hr>
+                            <button type="button" style="background-color: #97cdea; border-radius: 2%;">Compre
+                                agora</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="modal fade" id="modalnimesulida">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">19,99</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
+                            A nimesulida é um anti-inflamatório usado para aliviar dores, inflamações e febre. No
+                            Brasil, é um medicamento de tarja vermelha, venda sob prescrição médica.
+                            <br>
+                            <hr>
+                            <button type="button" style="background-color: #97cdea; border-radius: 2%;">Compre
+                                agora</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="modal fade" id="modalbandaid">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">18,69</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
+                            O Band-Aid transparente é um curativo usado para proteger pequenos cortes, arranhões e
+                            ferimentos superficiais, ajudando a evitar contato com sujeira.
+                            <br>
+                            <hr>
+                            <button type="button" style="background-color: #97cdea; border-radius: 2%;">Compre
+                                agora</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="modal fade" id="modalparacetamol">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">7,90</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
+                            O Paracetamol Baby 100 mg é usado para aliviar dor e febre em bebês e crianças. A tarja é
+                            vermelha, com venda sob prescrição médica.
+                            <br>
+                            <hr>
+                            <button type="button" style="background-color: #97cdea; border-radius: 2%;">Compre
+                                agora</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="modal fade" id="modallacday">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">69,99</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
+                            O Lacday é um suplemento de lactase, usado para ajudar na digestão da lactose em pessoas com
+                            dificuldade de digerir leite e derivados. É isento de tarja.
+                            <br>
+                            <hr>
+                            <button type="button" style="background-color: #97cdea; border-radius: 2%;">Compre
+                                agora</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="modal fade" id="modaltermometro">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">29,69</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
+                            O termômetro Incoterm é usado para medir a temperatura corporal. É um produto de uso médico
+                            e não possui tarja.
+                            <br>
+                            <hr>
+                            <button type="button" style="background-color: #97cdea; border-radius: 2%;">Compre
+                                agora</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="modal fade" id="modalbombinha">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">19,71</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
+                            A bombinha de asma é usada para ajudar a aliviar ou controlar dificuldades para respirar. A
+                            tarja depende do medicamento que está dentro da bombinha.
+                            <br>
+                            <hr>
+                            <button type="button" style="background-color: #97cdea; border-radius: 2%;">Compre
+                                agora</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="modal fade" id="modalsalonpas">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">21,90</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
+                            O Salonpas é usado para aliviar dores musculares, articulares e contusões, geralmente
+                            aplicado diretamente na pele. A tarja depende da versão, mas o adesivo comum é isento de
+                            tarja.
+                            <br>
+                            <hr>
+                            <button type="button" style="background-color: #97cdea; border-radius: 2%;">Compre
+                                agora</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="modal fade" id="modaldramin">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">23,40</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
+                            O Dramin B6 é usado para prevenir e aliviar enjoo, náuseas e vômitos. É um medicamento de
+                            tarja vermelha, venda sob prescrição médica.
+                            <br>
+                            <hr>
+                            <button type="button" style="background-color: #97cdea; border-radius: 2%;">Compre
+                                agora</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+
+
+            <!--PAGINA 3-->
+            <section id="pagina3" style="min-height: 100vh;background-color: #327070;"
+                class="d-flex justify-content-center align-items-center flex-column">
+                <section>
+
+                    <div style="display: flex; gap: 20px;">
+
+                        <div style="background-color: #b7dfe2; border-radius: 0%; width: 50%;">
+                            <h1>
+                                Gostaria de mais Informações?
+                                <hr>
+                                <p>Entre em contato:</p>
+
+                                <form>
+
+                                    <div class="mb-3">
+                                        <label for="email" class="form-label">
+                                            Email:
+                                        </label>
+
+                                        <input type="email" class="form-control" id="email">
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="nome" class="form-label">
+                                            Nome:
+                                        </label>
+
+                                        <input type="text" class="form-control" id="nome">
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="mensagem" class="form-label">
+                                            Sua mensagem:
+                                        </label>
+
+                                        <input type="text" class="form-control" id="mensagem">
+                                    </div>
+
+                                    <button type="submit" class="btn btn-primary" style="background-color: #211713;">
+                                        Enviar
+                                    </button>
+
+                                </form>
+                        </div>
+
+                        <div style="background-color: #b7dfe2; border-radius: 0%; width: 50%;">
+                            <h1>
+                                Nos encontre:
+                                <hr>
+                                <p>Instagram: @medsync.farmacia</p>
+                                <hr>
+                                <p>Tel: (19) 99855-4321</p>
+                                <hr>
+                                <p>Endereço: RC/SP</p>
+                                <hr>
+                                <p>Horario: 24/7</p>
+                                <hr>
+                                <p>Email: medsync@gmail.com</p>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+        </main>
+
+
+        <section id="pagina4" style="background-color: #3c9b81; min-height: 90vh;">
+
+            <div class="container py-5">
+
+                <div class="row align-items-center" style="min-height: 80vh;">
+
+                    <!-- TEXTO -->
+
+                    <div class="col-md-6">
+
+                        <h1 style="color: #000000; font-size: 55px; font-weight: bold;">
+                            Conheça nossa história
+                        </h1>
+
+                        <p style="color: #000000; font-size: 19px; margin-top: 25px;">
+
+                            A MedSync nasceu do encontro entre amizade, educação e superação. Seus fundadores, Daniel,
+                            Eduardo e Grilo, são professores que sempre compartilharam o desejo de transformar
+                            realidades por meio do conhecimento, do cuidado e de iniciativas com propósito.
+
+                            Ao longo dos anos em sala de aula, os três perceberam que muitas pessoas enfrentavam
+                            dificuldades para ter acesso a informações de saúde, medicamentos e atendimento de
+                            confiança. Essa percepção ficou ainda mais forte quando Grilo enfrentou um câncer e passou
+                            por um período delicado de tratamentos, consultas, exames e uso contínuo de medicamentos.
+                            Essa experiência mostrou que o cuidado em saúde vai muito além dos remédios, envolvendo
+                            também acolhimento, orientação, empatia e confiança.
+
+                            A partir disso, surgiu a ideia da MedSync, uma farmácia de bairro localizada em Rio
+                            Claro/SP, criada para oferecer não apenas medicamentos, mas também atenção e suporte à
+                            comunidade. O nome MedSync representa a proposta de unir saúde, tecnologia, atendimento e
+                            proximidade humana.
+
+                            Com os valores trazidos da educação, como ética, responsabilidade, escuta e orientação
+                            clara, a MedSync busca ser uma farmácia moderna, acessível e acolhedora, preparada para
+                            atender famílias, idosos, pacientes em tratamento contínuo e toda a comunidade. Mais do que
+                            vender medicamentos, a empresa busca criar vínculos e fazer com que cada pessoa se sinta
+                            cuidada.
+
+                        </p>
+
+                    </div>
+                    <!-- FOTO + BOTÃO -->
+
+                    <div class="col-md-6 text-center">
+
+                        <img src="https://i.pinimg.com/736x/e1/f4/df/e1f4df1416e797a17cd2c8fa042c2c8c.jpg"
+                            style="width: 400px; height: 550px; border-radius: 10%;" class="img-fluid"
+                            alt="Discos de vinil" style="border-radius: 5px;">
+
+                        <br>
+
+                        <a href="#pagina2" target="_blank" class="btn mt-4"
+                            style="background-color: #184e55; color: #ffffff; padding: 12px 30px;">
+
+                            Escolha seus medicamentos
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+    </div>
+    </div>
+
+    </main>
+
+    <footer class="mt-auto d-flex align-items-center justify-content-center"
+        style="min-height: 10vh;background-color: #211713;">
+
+        <ul class="nav justify-content-center">
+
+            <li class="nav-item">
+                <a class="nav-link" href="#inicio">Pagina inicial</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#pagina2">
+                    Em destaque
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#pagina3">
+                    Entre em contato
+                </a>
+
+
+
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#pagina4">
+                    Nossa história
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
